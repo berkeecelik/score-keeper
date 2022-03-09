@@ -32,5 +32,7 @@ btnP2.addEventListener("click", () => {
 btnReset.addEventListener("click", () => {
     isGameOver = false;
     displayS1.textContent = 0;
+    scoreP1 = 0;
     displayS2.textContent = 0;
+    scoreP2 = 0;
 })
