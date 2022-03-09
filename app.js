@@ -16,7 +16,7 @@ btnP1.addEventListener("click", () => {
         if (scoreP1 === firstTo) {
             isGameOver = true;
             displayS1.classList.add("has-text-success");
-            displayS2.classList.add("has-text-dagner");
+            displayS2.classList.add("has-text-danger");
             btnP1.disabled = true;
             btnP2.disabled = true;
         }
