@@ -47,4 +47,6 @@ function reset() {
     displayS2.textContent = 0;
     scoreP2 = 0;
     console.log("reset clicked!!");
+    displayS1.classList.remove("winner", "loser");
+    displayS2.classList.remove("winner", "loser");
 }
